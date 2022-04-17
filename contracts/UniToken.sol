@@ -1,5 +1,13 @@
+/**
+ *Submitted for verification at Etherscan.io on 2020-09-16
+*/
 
-pragma solidity ^0.8.10;
+/**
+ *Submitted for verification at Etherscan.io on 2020-09-15
+*/
+
+pragma solidity ^0.8.0;
+pragma experimental ABIEncoderV2;
 
 // From https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/Math.sol
 // Subject to the MIT license.
@@ -186,7 +194,7 @@ library SafeMath {
     }
 }
 
-contract Uni {
+contract Eps {
     /// @notice EIP-20 token name for this token
     string public constant name = "Uniswap";
 
